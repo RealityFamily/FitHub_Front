@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39427BCE23639BB3004DEBBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39427BCD23639BB3004DEBBC /* AppDelegate.swift */; };
+		39427BD423639BB7004DEBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39427BD323639BB7004DEBBC /* Assets.xcassets */; };
+		39427BD723639BB7004DEBBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39427BD623639BB7004DEBBC /* Preview Assets.xcassets */; };
+		39427BDA23639BB7004DEBBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39427BD823639BB7004DEBBC /* LaunchScreen.storyboard */; };
+		39427BE523639BB7004DEBBC /* FitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39427BE423639BB7004DEBBC /* FitHubTests.swift */; };
+		39427BF023639BB7004DEBBC /* FitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39427BEF23639BB7004DEBBC /* FitHubUITests.swift */; };
+		395A44532364832100B0E754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395A44522364832100B0E754 /* Main.storyboard */; };
+		395A44572364C96A00B0E754 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A44562364C96A00B0E754 /* PlanViewController.swift */; };
+		395A445E2364CBC500B0E754 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395A445C2364CBC500B0E754 /* Interface.storyboard */; };
+		395A44602364CBC900B0E754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395A445F2364CBC900B0E754 /* Assets.xcassets */; };
+		395A44672364CBC900B0E754 /* FitHubWatchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 395A44662364CBC900B0E754 /* FitHubWatchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		395A446C2364CBC900B0E754 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A446B2364CBC900B0E754 /* ContentView.swift */; };
+		395A446E2364CBC900B0E754 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A446D2364CBC900B0E754 /* HostingController.swift */; };
+		395A44702364CBC900B0E754 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A446F2364CBC900B0E754 /* ExtensionDelegate.swift */; };
+		395A44722364CBC900B0E754 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A44712364CBC900B0E754 /* NotificationController.swift */; };
+		395A44742364CBC900B0E754 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A44732364CBC900B0E754 /* NotificationView.swift */; };
+		395A44762364CBCA00B0E754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395A44752364CBCA00B0E754 /* Assets.xcassets */; };
+		395A44792364CBCA00B0E754 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395A44782364CBCA00B0E754 /* Preview Assets.xcassets */; };
+		395A447E2364CBCA00B0E754 /* FitHubWatchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 395A445A2364CBC500B0E754 /* FitHubWatchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39427BE123639BB7004DEBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39427BC223639BB3004DEBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39427BC923639BB3004DEBBC;
+			remoteInfo = FitHub;
+		};
+		39427BEC23639BB7004DEBBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39427BC223639BB3004DEBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39427BC923639BB3004DEBBC;
+			remoteInfo = FitHub;
+		};
+		395A44682364CBC900B0E754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39427BC223639BB3004DEBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 395A44652364CBC900B0E754;
+			remoteInfo = "FitHubWatchOS Extension";
+		};
+		395A447C2364CBCA00B0E754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39427BC223639BB3004DEBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 395A44592364CBC500B0E754;
+			remoteInfo = FitHubWatchOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		395A44822364CBCA00B0E754 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				395A44672364CBC900B0E754 /* FitHubWatchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A44862364CBCA00B0E754 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				395A447E2364CBCA00B0E754 /* FitHubWatchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		39427BCA23639BB3004DEBBC /* FitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39427BCD23639BB3004DEBBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39427BD323639BB7004DEBBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39427BD623639BB7004DEBBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39427BD923639BB7004DEBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39427BDB23639BB7004DEBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39427BE023639BB7004DEBBC /* FitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39427BE423639BB7004DEBBC /* FitHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHubTests.swift; sourceTree = "<group>"; };
+		39427BE623639BB7004DEBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39427BEB23639BB7004DEBBC /* FitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39427BEF23639BB7004DEBBC /* FitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitHubUITests.swift; sourceTree = "<group>"; };
+		39427BF123639BB7004DEBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395A44522364832100B0E754 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		395A44562364C96A00B0E754 /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
+		395A445A2364CBC500B0E754 /* FitHubWatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHubWatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		395A445D2364CBC500B0E754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		395A445F2364CBC900B0E754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		395A44612364CBC900B0E754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395A44662364CBC900B0E754 /* FitHubWatchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FitHubWatchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		395A446B2364CBC900B0E754 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		395A446D2364CBC900B0E754 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		395A446F2364CBC900B0E754 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		395A44712364CBC900B0E754 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		395A44732364CBC900B0E754 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		395A44752364CBCA00B0E754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		395A44782364CBCA00B0E754 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		395A447A2364CBCA00B0E754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395A447B2364CBCA00B0E754 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39427BC723639BB3004DEBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39427BDD23639BB7004DEBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39427BE823639BB7004DEBBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A44632364CBC900B0E754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39427BC123639BB3004DEBBC = {
+			isa = PBXGroup;
+			children = (
+				39427BCC23639BB3004DEBBC /* FitHub */,
+				39427BE323639BB7004DEBBC /* FitHubTests */,
+				39427BEE23639BB7004DEBBC /* FitHubUITests */,
+				395A445B2364CBC500B0E754 /* FitHubWatchOS */,
+				395A446A2364CBC900B0E754 /* FitHubWatchOS Extension */,
+				39427BCB23639BB3004DEBBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39427BCB23639BB3004DEBBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39427BCA23639BB3004DEBBC /* FitHub.app */,
+				39427BE023639BB7004DEBBC /* FitHubTests.xctest */,
+				39427BEB23639BB7004DEBBC /* FitHubUITests.xctest */,
+				395A445A2364CBC500B0E754 /* FitHubWatchOS.app */,
+				395A44662364CBC900B0E754 /* FitHubWatchOS Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39427BCC23639BB3004DEBBC /* FitHub */ = {
+			isa = PBXGroup;
+			children = (
+				395A44552364C93E00B0E754 /* ViewController Classes */,
+				395A44542364C92100B0E754 /* StoryBoards */,
+				39427BCD23639BB3004DEBBC /* AppDelegate.swift */,
+				39427BD323639BB7004DEBBC /* Assets.xcassets */,
+				39427BDB23639BB7004DEBBC /* Info.plist */,
+				39427BD523639BB7004DEBBC /* Preview Content */,
+			);
+			path = FitHub;
+			sourceTree = "<group>";
+		};
+		39427BD523639BB7004DEBBC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				39427BD623639BB7004DEBBC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		39427BE323639BB7004DEBBC /* FitHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				39427BE423639BB7004DEBBC /* FitHubTests.swift */,
+				39427BE623639BB7004DEBBC /* Info.plist */,
+			);
+			path = FitHubTests;
+			sourceTree = "<group>";
+		};
+		39427BEE23639BB7004DEBBC /* FitHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39427BEF23639BB7004DEBBC /* FitHubUITests.swift */,
+				39427BF123639BB7004DEBBC /* Info.plist */,
+			);
+			path = FitHubUITests;
+			sourceTree = "<group>";
+		};
+		395A44542364C92100B0E754 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				395A44522364832100B0E754 /* Main.storyboard */,
+				39427BD823639BB7004DEBBC /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		395A44552364C93E00B0E754 /* ViewController Classes */ = {
+			isa = PBXGroup;
+			children = (
+				395A44562364C96A00B0E754 /* PlanViewController.swift */,
+			);
+			path = "ViewController Classes";
+			sourceTree = "<group>";
+		};
+		395A445B2364CBC500B0E754 /* FitHubWatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				395A445C2364CBC500B0E754 /* Interface.storyboard */,
+				395A445F2364CBC900B0E754 /* Assets.xcassets */,
+				395A44612364CBC900B0E754 /* Info.plist */,
+			);
+			path = FitHubWatchOS;
+			sourceTree = "<group>";
+		};
+		395A446A2364CBC900B0E754 /* FitHubWatchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				395A446B2364CBC900B0E754 /* ContentView.swift */,
+				395A446D2364CBC900B0E754 /* HostingController.swift */,
+				395A446F2364CBC900B0E754 /* ExtensionDelegate.swift */,
+				395A44712364CBC900B0E754 /* NotificationController.swift */,
+				395A44732364CBC900B0E754 /* NotificationView.swift */,
+				395A44752364CBCA00B0E754 /* Assets.xcassets */,
+				395A447A2364CBCA00B0E754 /* Info.plist */,
+				395A447B2364CBCA00B0E754 /* PushNotificationPayload.apns */,
+				395A44772364CBCA00B0E754 /* Preview Content */,
+			);
+			path = "FitHubWatchOS Extension";
+			sourceTree = "<group>";
+		};
+		395A44772364CBCA00B0E754 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				395A44782364CBCA00B0E754 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39427BC923639BB3004DEBBC /* FitHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39427BF423639BB7004DEBBC /* Build configuration list for PBXNativeTarget "FitHub" */;
+			buildPhases = (
+				39427BC623639BB3004DEBBC /* Sources */,
+				39427BC723639BB3004DEBBC /* Frameworks */,
+				39427BC823639BB3004DEBBC /* Resources */,
+				395A44862364CBCA00B0E754 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				395A447D2364CBCA00B0E754 /* PBXTargetDependency */,
+			);
+			name = FitHub;
+			productName = FitHub;
+			productReference = 39427BCA23639BB3004DEBBC /* FitHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39427BDF23639BB7004DEBBC /* FitHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39427BF723639BB7004DEBBC /* Build configuration list for PBXNativeTarget "FitHubTests" */;
+			buildPhases = (
+				39427BDC23639BB7004DEBBC /* Sources */,
+				39427BDD23639BB7004DEBBC /* Frameworks */,
+				39427BDE23639BB7004DEBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39427BE223639BB7004DEBBC /* PBXTargetDependency */,
+			);
+			name = FitHubTests;
+			productName = FitHubTests;
+			productReference = 39427BE023639BB7004DEBBC /* FitHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39427BEA23639BB7004DEBBC /* FitHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39427BFA23639BB7004DEBBC /* Build configuration list for PBXNativeTarget "FitHubUITests" */;
+			buildPhases = (
+				39427BE723639BB7004DEBBC /* Sources */,
+				39427BE823639BB7004DEBBC /* Frameworks */,
+				39427BE923639BB7004DEBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39427BED23639BB7004DEBBC /* PBXTargetDependency */,
+			);
+			name = FitHubUITests;
+			productName = FitHubUITests;
+			productReference = 39427BEB23639BB7004DEBBC /* FitHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		395A44592364CBC500B0E754 /* FitHubWatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 395A44832364CBCA00B0E754 /* Build configuration list for PBXNativeTarget "FitHubWatchOS" */;
+			buildPhases = (
+				395A44582364CBC500B0E754 /* Resources */,
+				395A44822364CBCA00B0E754 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				395A44692364CBC900B0E754 /* PBXTargetDependency */,
+			);
+			name = FitHubWatchOS;
+			productName = FitHubWatchOS;
+			productReference = 395A445A2364CBC500B0E754 /* FitHubWatchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		395A44652364CBC900B0E754 /* FitHubWatchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 395A447F2364CBCA00B0E754 /* Build configuration list for PBXNativeTarget "FitHubWatchOS Extension" */;
+			buildPhases = (
+				395A44622364CBC900B0E754 /* Sources */,
+				395A44632364CBC900B0E754 /* Frameworks */,
+				395A44642364CBC900B0E754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FitHubWatchOS Extension";
+			productName = "FitHubWatchOS Extension";
+			productReference = 395A44662364CBC900B0E754 /* FitHubWatchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39427BC223639BB3004DEBBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = RealityFamily;
+				TargetAttributes = {
+					39427BC923639BB3004DEBBC = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					39427BDF23639BB7004DEBBC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 39427BC923639BB3004DEBBC;
+					};
+					39427BEA23639BB7004DEBBC = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 39427BC923639BB3004DEBBC;
+					};
+					395A44592364CBC500B0E754 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					395A44652364CBC900B0E754 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 39427BC523639BB3004DEBBC /* Build configuration list for PBXProject "FitHub" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39427BC123639BB3004DEBBC;
+			productRefGroup = 39427BCB23639BB3004DEBBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39427BC923639BB3004DEBBC /* FitHub */,
+				39427BDF23639BB7004DEBBC /* FitHubTests */,
+				39427BEA23639BB7004DEBBC /* FitHubUITests */,
+				395A44592364CBC500B0E754 /* FitHubWatchOS */,
+				395A44652364CBC900B0E754 /* FitHubWatchOS Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39427BC823639BB3004DEBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39427BDA23639BB7004DEBBC /* LaunchScreen.storyboard in Resources */,
+				39427BD723639BB7004DEBBC /* Preview Assets.xcassets in Resources */,
+				39427BD423639BB7004DEBBC /* Assets.xcassets in Resources */,
+				395A44532364832100B0E754 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39427BDE23639BB7004DEBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39427BE923639BB7004DEBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A44582364CBC500B0E754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395A44602364CBC900B0E754 /* Assets.xcassets in Resources */,
+				395A445E2364CBC500B0E754 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A44642364CBC900B0E754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395A44792364CBCA00B0E754 /* Preview Assets.xcassets in Resources */,
+				395A44762364CBCA00B0E754 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39427BC623639BB3004DEBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39427BCE23639BB3004DEBBC /* AppDelegate.swift in Sources */,
+				395A44572364C96A00B0E754 /* PlanViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39427BDC23639BB7004DEBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39427BE523639BB7004DEBBC /* FitHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39427BE723639BB7004DEBBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39427BF023639BB7004DEBBC /* FitHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A44622364CBC900B0E754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395A446E2364CBC900B0E754 /* HostingController.swift in Sources */,
+				395A446C2364CBC900B0E754 /* ContentView.swift in Sources */,
+				395A44722364CBC900B0E754 /* NotificationController.swift in Sources */,
+				395A44702364CBC900B0E754 /* ExtensionDelegate.swift in Sources */,
+				395A44742364CBC900B0E754 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39427BE223639BB7004DEBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39427BC923639BB3004DEBBC /* FitHub */;
+			targetProxy = 39427BE123639BB7004DEBBC /* PBXContainerItemProxy */;
+		};
+		39427BED23639BB7004DEBBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39427BC923639BB3004DEBBC /* FitHub */;
+			targetProxy = 39427BEC23639BB7004DEBBC /* PBXContainerItemProxy */;
+		};
+		395A44692364CBC900B0E754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 395A44652364CBC900B0E754 /* FitHubWatchOS Extension */;
+			targetProxy = 395A44682364CBC900B0E754 /* PBXContainerItemProxy */;
+		};
+		395A447D2364CBCA00B0E754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 395A44592364CBC500B0E754 /* FitHubWatchOS */;
+			targetProxy = 395A447C2364CBCA00B0E754 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39427BD823639BB7004DEBBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39427BD923639BB7004DEBBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		395A445C2364CBC500B0E754 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				395A445D2364CBC500B0E754 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39427BF223639BB7004DEBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39427BF323639BB7004DEBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39427BF523639BB7004DEBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FitHub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FitHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.FitHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39427BF623639BB7004DEBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FitHub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FitHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.FitHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39427BF823639BB7004DEBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitHubTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.FitHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitHub.app/FitHub";
+			};
+			name = Debug;
+		};
+		39427BF923639BB7004DEBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitHubTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.FitHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitHub.app/FitHub";
+			};
+			name = Release;
+		};
+		39427BFB23639BB7004DEBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.FitHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitHub;
+			};
+			name = Debug;
+		};
+		39427BFC23639BB7004DEBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FitHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.FitHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitHub;
+			};
+			name = Release;
+		};
+		395A44802364CBCA00B0E754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FitHubWatchOS Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FitHubWatchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.FitHub.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		395A44812364CBCA00B0E754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FitHubWatchOS Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FitHubWatchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.FitHub.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		395A44842364CBCA00B0E754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = FitHubWatchOS_Extension;
+				INFOPLIST_FILE = FitHubWatchOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.FitHub.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		395A44852364CBCA00B0E754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = FitHubWatchOS_Extension;
+				INFOPLIST_FILE = FitHubWatchOS/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.FitHub.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39427BC523639BB3004DEBBC /* Build configuration list for PBXProject "FitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39427BF223639BB7004DEBBC /* Debug */,
+				39427BF323639BB7004DEBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39427BF423639BB7004DEBBC /* Build configuration list for PBXNativeTarget "FitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39427BF523639BB7004DEBBC /* Debug */,
+				39427BF623639BB7004DEBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39427BF723639BB7004DEBBC /* Build configuration list for PBXNativeTarget "FitHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39427BF823639BB7004DEBBC /* Debug */,
+				39427BF923639BB7004DEBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39427BFA23639BB7004DEBBC /* Build configuration list for PBXNativeTarget "FitHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39427BFB23639BB7004DEBBC /* Debug */,
+				39427BFC23639BB7004DEBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		395A447F2364CBCA00B0E754 /* Build configuration list for PBXNativeTarget "FitHubWatchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395A44802364CBCA00B0E754 /* Debug */,
+				395A44812364CBCA00B0E754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		395A44832364CBCA00B0E754 /* Build configuration list for PBXNativeTarget "FitHubWatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395A44842364CBCA00B0E754 /* Debug */,
+				395A44852364CBCA00B0E754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39427BC223639BB3004DEBBC /* Project object */;
+}
