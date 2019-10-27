@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14256" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15400" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14243"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14219"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15400"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
+        <scene sceneID="pRL-YB-tU2">
+            <objects>
+                <controller id="056-ZU-Lkb">
+                    <items>
+                        <button width="136" height="108" alignment="center" verticalAlignment="center" title="Присед" id="uNd-jb-0nr">
+                            <connections>
+                                <segue destination="C9j-Hg-Kz9" kind="push" id="dNC-S3-HGB"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="298" y="16"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="4YB-xS-GZr">
+            <objects>
+                <controller id="C9j-Hg-Kz9">
+                    <items>
+                        <label alignment="left" text="Приседания" id="fce-p0-5xD"/>
+                        <timer width="111" height="50" alignment="left" numberOfLines="2" enabled="YES" id="26Y-a0-7Ve"/>
+                        <label alignment="left" text="Калории: 3" id="oWU-Ht-XdZ"/>
+                        <label alignment="left" text="BPM: 78" id="FfZ-4J-BZE"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="589" y="26"/>
+        </scene>
+        <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="FitHubWatchOS1" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="eGK-fP-EFW"/>
+                        <label alignment="left" text="Тренировка" id="ifU-Va-UMB"/>
+                        <button width="1" height="62" alignment="center" verticalAlignment="center" title="Начать" id="eeO-cd-6MB">
+                            <connections>
+                                <segue destination="056-ZU-Lkb" kind="push" id="mrP-Jr-Omn"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
@@ -32,14 +72,14 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="FitHubWatchOS1" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="Niz-AI-uX2">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="FitHubWatchOS1" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="345"/>
         </scene>
