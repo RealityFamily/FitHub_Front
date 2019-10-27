@@ -1,0 +1,6 @@
+framework module Pods_FitHub_FitHubUITests {
+  umbrella header "Pods-FitHub-FitHubUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,48 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FitHub' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FitHub
+
+  target 'FitHubTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FitHubUITests' do
+    # Pods for testing
+  end
+
+end
+
+target 'FitHubWatchOS1' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FitHubWatchOS1
+
+end
+
+target 'FitHubWatchOS1 Extension' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FitHubWatchOS1 Extension
+
+end
+
+target 'SwaggerClient' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SwaggerClient
+  pod 'Alamofire', '~>4.3'
+
+  target 'SwaggerClientTests' do
+    # Pods for testing
+  end
+
+end

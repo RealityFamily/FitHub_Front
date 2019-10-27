@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3600D8655B900AD0543961 /* Pods_FitHub_FitHubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897A3DDBFF4F3B5B1B0B683E /* Pods_FitHub_FitHubUITests.framework */; };
+		170C0C350FCE8A2A46E0F074 /* Pods_FitHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6D2C0384C7895C726BE164 /* Pods_FitHubTests.framework */; };
+		35AE523FF17AD58C4D6F1B5F /* Pods_FitHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85EB2205CBD7AF9BEEBC6E9 /* Pods_FitHub.framework */; };
+		3647334A96565AD2BB00B984 /* Pods_FitHubWatchOS1_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F244D55F64669184A00F6D /* Pods_FitHubWatchOS1_Extension.framework */; };
 		39427BCE23639BB3004DEBBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39427BCD23639BB3004DEBBC /* AppDelegate.swift */; };
 		39427BD423639BB7004DEBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39427BD323639BB7004DEBBC /* Assets.xcassets */; };
 		39427BD723639BB7004DEBBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39427BD623639BB7004DEBBC /* Preview Assets.xcassets */; };
@@ -26,6 +30,20 @@
 		395A44A82365136700B0E754 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A44A72365136700B0E754 /* NotificationController.swift */; };
 		395A44AA2365136800B0E754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395A44A92365136800B0E754 /* Assets.xcassets */; };
 		395A44AF2365136800B0E754 /* FitHubWatchOS1.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 395A44922365136600B0E754 /* FitHubWatchOS1.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		395A44B82365174D00B0E754 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A44B72365174D00B0E754 /* TrainingViewController.swift */; };
+		395A44BA236525E400B0E754 /* ChooseTrainingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A44B9236525E400B0E754 /* ChooseTrainingPlan.swift */; };
+		395A44BC23652B1200B0E754 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A44BB23652B1200B0E754 /* TaskCell.swift */; };
+		395A44BE2365403E00B0E754 /* TrainingPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A44BD2365403E00B0E754 /* TrainingPlanViewController.swift */; };
+		395A44C02365433E00B0E754 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A44BF2365433E00B0E754 /* ExerciseCell.swift */; };
+		395A44CF23654C2500B0E754 /* SwaggerClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395A44C623654C2500B0E754 /* SwaggerClient.framework */; };
+		395A44D623654C2500B0E754 /* SwaggerClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395A44D523654C2500B0E754 /* SwaggerClientTests.swift */; };
+		395A44D823654C2500B0E754 /* SwaggerClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 395A44C823654C2500B0E754 /* SwaggerClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		395A44DB23654C2500B0E754 /* SwaggerClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395A44C623654C2500B0E754 /* SwaggerClient.framework */; };
+		395A44DD23654C2500B0E754 /* SwaggerClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 395A44C623654C2500B0E754 /* SwaggerClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		395A44E723654F7000B0E754 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 395A44E623654F6F00B0E754 /* Classes */; };
+		BFFEC42770D7AD4D776DD639 /* Pods_SwaggerClient_SwaggerClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0852D1E2AA3D18F02B51D74B /* Pods_SwaggerClient_SwaggerClientTests.framework */; };
+		E94AC50B74BD51095248FE55 /* Pods_SwaggerClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58871197A3635583EFC7963 /* Pods_SwaggerClient.framework */; };
+		F48FD2AFDCC8CC67CCDBAEFC /* Pods_FitHubWatchOS1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1CC182895D73897508A29B7 /* Pods_FitHubWatchOS1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +75,27 @@
 			remoteGlobalIDString = 395A44912365136600B0E754;
 			remoteInfo = FitHubWatchOS1;
 		};
+		395A44D023654C2500B0E754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39427BC223639BB3004DEBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 395A44C523654C2500B0E754;
+			remoteInfo = SwaggerClient;
+		};
+		395A44D223654C2500B0E754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39427BC223639BB3004DEBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39427BC923639BB3004DEBBC;
+			remoteInfo = FitHub;
+		};
+		395A44D923654C2500B0E754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39427BC223639BB3004DEBBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 395A44C523654C2500B0E754;
+			remoteInfo = SwaggerClient;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,9 +121,24 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		395A44DC23654C2500B0E754 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				395A44DD23654C2500B0E754 /* SwaggerClient.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0852D1E2AA3D18F02B51D74B /* Pods_SwaggerClient_SwaggerClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwaggerClient_SwaggerClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D39623C78FB2E8A853A9279 /* Pods-FitHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHubTests.debug.xcconfig"; path = "Target Support Files/Pods-FitHubTests/Pods-FitHubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D6D2C0384C7895C726BE164 /* Pods_FitHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		104785F651C52337FA29658E /* Pods-SwaggerClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaggerClient.debug.xcconfig"; path = "Target Support Files/Pods-SwaggerClient/Pods-SwaggerClient.debug.xcconfig"; sourceTree = "<group>"; };
 		39427BCA23639BB3004DEBBC /* FitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39427BCD23639BB3004DEBBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39427BD323639BB7004DEBBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,6 +167,35 @@
 		395A44A92365136800B0E754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		395A44AB2365136800B0E754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		395A44AC2365136800B0E754 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		395A44B72365174D00B0E754 /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		395A44B9236525E400B0E754 /* ChooseTrainingPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTrainingPlan.swift; sourceTree = "<group>"; };
+		395A44BB23652B1200B0E754 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		395A44BD2365403E00B0E754 /* TrainingPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlanViewController.swift; sourceTree = "<group>"; };
+		395A44BF2365433E00B0E754 /* ExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
+		395A44C623654C2500B0E754 /* SwaggerClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwaggerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		395A44C823654C2500B0E754 /* SwaggerClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwaggerClient.h; sourceTree = "<group>"; };
+		395A44C923654C2500B0E754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395A44CE23654C2500B0E754 /* SwaggerClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwaggerClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		395A44D523654C2500B0E754 /* SwaggerClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwaggerClientTests.swift; sourceTree = "<group>"; };
+		395A44D723654C2500B0E754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395A44E623654F6F00B0E754 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		52F244D55F64669184A00F6D /* Pods_FitHubWatchOS1_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitHubWatchOS1_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F122EC21B0E2A9D6CEB3C27 /* Pods-FitHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHubTests.release.xcconfig"; path = "Target Support Files/Pods-FitHubTests/Pods-FitHubTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E93341EC8ACF75E10DFF356 /* Pods-FitHubWatchOS1 Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHubWatchOS1 Extension.debug.xcconfig"; path = "Target Support Files/Pods-FitHubWatchOS1 Extension/Pods-FitHubWatchOS1 Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		8249B1AB37BD45E31B8A0955 /* Pods-FitHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHub.debug.xcconfig"; path = "Target Support Files/Pods-FitHub/Pods-FitHub.debug.xcconfig"; sourceTree = "<group>"; };
+		897A3DDBFF4F3B5B1B0B683E /* Pods_FitHub_FitHubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitHub_FitHubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A63DA571FDE56457D4E445A /* Pods-FitHubWatchOS1 Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHubWatchOS1 Extension.release.xcconfig"; path = "Target Support Files/Pods-FitHubWatchOS1 Extension/Pods-FitHubWatchOS1 Extension.release.xcconfig"; sourceTree = "<group>"; };
+		8B7916B43FF83E1C668CE08C /* Pods-SwaggerClient-SwaggerClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaggerClient-SwaggerClientTests.release.xcconfig"; path = "Target Support Files/Pods-SwaggerClient-SwaggerClientTests/Pods-SwaggerClient-SwaggerClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A4B5407605D080FF59B72A2 /* Pods-SwaggerClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaggerClient.release.xcconfig"; path = "Target Support Files/Pods-SwaggerClient/Pods-SwaggerClient.release.xcconfig"; sourceTree = "<group>"; };
+		B1CC182895D73897508A29B7 /* Pods_FitHubWatchOS1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitHubWatchOS1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CE844A528A5DE92CDCA53E /* Pods-FitHubWatchOS1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHubWatchOS1.debug.xcconfig"; path = "Target Support Files/Pods-FitHubWatchOS1/Pods-FitHubWatchOS1.debug.xcconfig"; sourceTree = "<group>"; };
+		C549A55BD4D89009EE830ECC /* Pods-FitHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHub.release.xcconfig"; path = "Target Support Files/Pods-FitHub/Pods-FitHub.release.xcconfig"; sourceTree = "<group>"; };
+		C6ECFD38B2DDEE836C543874 /* Pods-FitHubWatchOS1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHubWatchOS1.release.xcconfig"; path = "Target Support Files/Pods-FitHubWatchOS1/Pods-FitHubWatchOS1.release.xcconfig"; sourceTree = "<group>"; };
+		CE3CE5CE7750544C99E17BB8 /* Pods-SwaggerClient-SwaggerClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaggerClient-SwaggerClientTests.debug.xcconfig"; path = "Target Support Files/Pods-SwaggerClient-SwaggerClientTests/Pods-SwaggerClient-SwaggerClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D85EB2205CBD7AF9BEEBC6E9 /* Pods_FitHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E378E57713FD67538697A72A /* Pods-FitHub-FitHubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHub-FitHubUITests.release.xcconfig"; path = "Target Support Files/Pods-FitHub-FitHubUITests/Pods-FitHub-FitHubUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F58871197A3635583EFC7963 /* Pods_SwaggerClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwaggerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A6585FB0567D7893F9EC9B /* Pods-FitHub-FitHubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHub-FitHubUITests.debug.xcconfig"; path = "Target Support Files/Pods-FitHub-FitHubUITests/Pods-FitHub-FitHubUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +203,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395A44DB23654C2500B0E754 /* SwaggerClient.framework in Frameworks */,
+				35AE523FF17AD58C4D6F1B5F /* Pods_FitHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +212,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170C0C350FCE8A2A46E0F074 /* Pods_FitHubTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3600D8655B900AD0543961 /* Pods_FitHub_FitHubUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,12 +228,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3647334A96565AD2BB00B984 /* Pods_FitHubWatchOS1_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A44C323654C2500B0E754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94AC50B74BD51095248FE55 /* Pods_SwaggerClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A44CB23654C2500B0E754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395A44CF23654C2500B0E754 /* SwaggerClient.framework in Frameworks */,
+				BFFEC42770D7AD4D776DD639 /* Pods_SwaggerClient_SwaggerClientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3969CB5AB1BBA6824113BC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48FD2AFDCC8CC67CCDBAEFC /* Pods_FitHubWatchOS1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		299025F25FD3B48ACC253A6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D85EB2205CBD7AF9BEEBC6E9 /* Pods_FitHub.framework */,
+				897A3DDBFF4F3B5B1B0B683E /* Pods_FitHub_FitHubUITests.framework */,
+				0D6D2C0384C7895C726BE164 /* Pods_FitHubTests.framework */,
+				B1CC182895D73897508A29B7 /* Pods_FitHubWatchOS1.framework */,
+				52F244D55F64669184A00F6D /* Pods_FitHubWatchOS1_Extension.framework */,
+				F58871197A3635583EFC7963 /* Pods_SwaggerClient.framework */,
+				0852D1E2AA3D18F02B51D74B /* Pods_SwaggerClient_SwaggerClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		39427BC123639BB3004DEBBC = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +282,11 @@
 				39427BEE23639BB7004DEBBC /* FitHubUITests */,
 				395A44932365136600B0E754 /* FitHubWatchOS1 */,
 				395A44A22365136700B0E754 /* FitHubWatchOS1 Extension */,
+				395A44C723654C2500B0E754 /* SwaggerClient */,
+				395A44D423654C2500B0E754 /* SwaggerClientTests */,
 				39427BCB23639BB3004DEBBC /* Products */,
+				68E8CE6270C706B792DB18F6 /* Pods */,
+				299025F25FD3B48ACC253A6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +298,8 @@
 				39427BEB23639BB7004DEBBC /* FitHubUITests.xctest */,
 				395A44922365136600B0E754 /* FitHubWatchOS1.app */,
 				395A449E2365136700B0E754 /* FitHubWatchOS1 Extension.appex */,
+				395A44C623654C2500B0E754 /* SwaggerClient.framework */,
+				395A44CE23654C2500B0E754 /* SwaggerClientTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,6 +358,9 @@
 			children = (
 				395A44562364C96A00B0E754 /* PlanViewController.swift */,
 				395A448A2364F31100B0E754 /* ProfileViewController.swift */,
+				395A44B72365174D00B0E754 /* TrainingViewController.swift */,
+				395A44B9236525E400B0E754 /* ChooseTrainingPlan.swift */,
+				395A44BD2365403E00B0E754 /* TrainingPlanViewController.swift */,
 			);
 			path = "ViewController Classes";
 			sourceTree = "<group>";
@@ -234,6 +370,8 @@
 			children = (
 				395A448C2364F3FD00B0E754 /* SettingsCell.swift */,
 				395A448E23650EAD00B0E754 /* CollectionViewCell.swift */,
+				395A44BB23652B1200B0E754 /* TaskCell.swift */,
+				395A44BF2365433E00B0E754 /* ExerciseCell.swift */,
 			);
 			path = "Cell Classes";
 			sourceTree = "<group>";
@@ -261,22 +399,77 @@
 			path = "FitHubWatchOS1 Extension";
 			sourceTree = "<group>";
 		};
+		395A44C723654C2500B0E754 /* SwaggerClient */ = {
+			isa = PBXGroup;
+			children = (
+				395A44E623654F6F00B0E754 /* Classes */,
+				395A44C823654C2500B0E754 /* SwaggerClient.h */,
+				395A44C923654C2500B0E754 /* Info.plist */,
+			);
+			path = SwaggerClient;
+			sourceTree = "<group>";
+		};
+		395A44D423654C2500B0E754 /* SwaggerClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				395A44D523654C2500B0E754 /* SwaggerClientTests.swift */,
+				395A44D723654C2500B0E754 /* Info.plist */,
+			);
+			path = SwaggerClientTests;
+			sourceTree = "<group>";
+		};
+		68E8CE6270C706B792DB18F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8249B1AB37BD45E31B8A0955 /* Pods-FitHub.debug.xcconfig */,
+				C549A55BD4D89009EE830ECC /* Pods-FitHub.release.xcconfig */,
+				F7A6585FB0567D7893F9EC9B /* Pods-FitHub-FitHubUITests.debug.xcconfig */,
+				E378E57713FD67538697A72A /* Pods-FitHub-FitHubUITests.release.xcconfig */,
+				0D39623C78FB2E8A853A9279 /* Pods-FitHubTests.debug.xcconfig */,
+				6F122EC21B0E2A9D6CEB3C27 /* Pods-FitHubTests.release.xcconfig */,
+				B6CE844A528A5DE92CDCA53E /* Pods-FitHubWatchOS1.debug.xcconfig */,
+				C6ECFD38B2DDEE836C543874 /* Pods-FitHubWatchOS1.release.xcconfig */,
+				7E93341EC8ACF75E10DFF356 /* Pods-FitHubWatchOS1 Extension.debug.xcconfig */,
+				8A63DA571FDE56457D4E445A /* Pods-FitHubWatchOS1 Extension.release.xcconfig */,
+				104785F651C52337FA29658E /* Pods-SwaggerClient.debug.xcconfig */,
+				9A4B5407605D080FF59B72A2 /* Pods-SwaggerClient.release.xcconfig */,
+				CE3CE5CE7750544C99E17BB8 /* Pods-SwaggerClient-SwaggerClientTests.debug.xcconfig */,
+				8B7916B43FF83E1C668CE08C /* Pods-SwaggerClient-SwaggerClientTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		395A44C123654C2500B0E754 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395A44D823654C2500B0E754 /* SwaggerClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		39427BC923639BB3004DEBBC /* FitHub */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39427BF423639BB7004DEBBC /* Build configuration list for PBXNativeTarget "FitHub" */;
 			buildPhases = (
+				551D900DC2DFF9AD01318A1E /* [CP] Check Pods Manifest.lock */,
 				39427BC623639BB3004DEBBC /* Sources */,
 				39427BC723639BB3004DEBBC /* Frameworks */,
 				39427BC823639BB3004DEBBC /* Resources */,
 				395A44862364CBCA00B0E754 /* Embed Watch Content */,
+				395A44DC23654C2500B0E754 /* Embed Frameworks */,
+				1EF248F016FAEFABCDFC67A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				395A44AE2365136800B0E754 /* PBXTargetDependency */,
+				395A44DA23654C2500B0E754 /* PBXTargetDependency */,
 			);
 			name = FitHub;
 			productName = FitHub;
@@ -287,6 +480,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39427BF723639BB7004DEBBC /* Build configuration list for PBXNativeTarget "FitHubTests" */;
 			buildPhases = (
+				7EEF433D776A92AE1217EB2B /* [CP] Check Pods Manifest.lock */,
 				39427BDC23639BB7004DEBBC /* Sources */,
 				39427BDD23639BB7004DEBBC /* Frameworks */,
 				39427BDE23639BB7004DEBBC /* Resources */,
@@ -305,6 +499,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39427BFA23639BB7004DEBBC /* Build configuration list for PBXNativeTarget "FitHubUITests" */;
 			buildPhases = (
+				EA8575FA3509BFFFB73D9222 /* [CP] Check Pods Manifest.lock */,
 				39427BE723639BB7004DEBBC /* Sources */,
 				39427BE823639BB7004DEBBC /* Frameworks */,
 				39427BE923639BB7004DEBBC /* Resources */,
@@ -323,8 +518,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 395A44B42365136800B0E754 /* Build configuration list for PBXNativeTarget "FitHubWatchOS1" */;
 			buildPhases = (
+				88FAD4DE78CEAA05EF87D341 /* [CP] Check Pods Manifest.lock */,
 				395A44902365136600B0E754 /* Resources */,
 				395A44B32365136800B0E754 /* Embed App Extensions */,
+				3969CB5AB1BBA6824113BC35 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,6 +537,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 395A44B02365136800B0E754 /* Build configuration list for PBXNativeTarget "FitHubWatchOS1 Extension" */;
 			buildPhases = (
+				12C724F28B252CD70F8ACC02 /* [CP] Check Pods Manifest.lock */,
 				395A449A2365136700B0E754 /* Sources */,
 				395A449B2365136700B0E754 /* Frameworks */,
 				395A449C2365136700B0E754 /* Resources */,
@@ -352,6 +550,46 @@
 			productName = "FitHubWatchOS1 Extension";
 			productReference = 395A449E2365136700B0E754 /* FitHubWatchOS1 Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		395A44C523654C2500B0E754 /* SwaggerClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 395A44DE23654C2500B0E754 /* Build configuration list for PBXNativeTarget "SwaggerClient" */;
+			buildPhases = (
+				72CCE58FB7496BFEB9700317 /* [CP] Check Pods Manifest.lock */,
+				395A44C123654C2500B0E754 /* Headers */,
+				395A44C223654C2500B0E754 /* Sources */,
+				395A44C323654C2500B0E754 /* Frameworks */,
+				395A44C423654C2500B0E754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwaggerClient;
+			productName = SwaggerClient;
+			productReference = 395A44C623654C2500B0E754 /* SwaggerClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		395A44CD23654C2500B0E754 /* SwaggerClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 395A44E123654C2500B0E754 /* Build configuration list for PBXNativeTarget "SwaggerClientTests" */;
+			buildPhases = (
+				A8C0AA0296D1F11CC0A25A6E /* [CP] Check Pods Manifest.lock */,
+				395A44CA23654C2500B0E754 /* Sources */,
+				395A44CB23654C2500B0E754 /* Frameworks */,
+				395A44CC23654C2500B0E754 /* Resources */,
+				2DE19D09B392B660E610E651 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				395A44D123654C2500B0E754 /* PBXTargetDependency */,
+				395A44D323654C2500B0E754 /* PBXTargetDependency */,
+			);
+			name = SwaggerClientTests;
+			productName = SwaggerClientTests;
+			productReference = 395A44CE23654C2500B0E754 /* SwaggerClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -380,6 +618,13 @@
 					395A449D2365136700B0E754 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					395A44C523654C2500B0E754 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					395A44CD23654C2500B0E754 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 39427BC923639BB3004DEBBC;
+					};
 				};
 			};
 			buildConfigurationList = 39427BC523639BB3004DEBBC /* Build configuration list for PBXProject "FitHub" */;
@@ -400,6 +645,8 @@
 				39427BEA23639BB7004DEBBC /* FitHubUITests */,
 				395A44912365136600B0E754 /* FitHubWatchOS1 */,
 				395A449D2365136700B0E754 /* FitHubWatchOS1 Extension */,
+				395A44C523654C2500B0E754 /* SwaggerClient */,
+				395A44CD23654C2500B0E754 /* SwaggerClientTests */,
 			);
 		};
 /* End PBXProject section */
@@ -447,16 +694,227 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		395A44C423654C2500B0E754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395A44E723654F7000B0E754 /* Classes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A44CC23654C2500B0E754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12C724F28B252CD70F8ACC02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitHubWatchOS1 Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EF248F016FAEFABCDFC67A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitHub/Pods-FitHub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitHub/Pods-FitHub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitHub/Pods-FitHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DE19D09B392B660E610E651 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwaggerClient-SwaggerClientTests/Pods-SwaggerClient-SwaggerClientTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwaggerClient-SwaggerClientTests/Pods-SwaggerClient-SwaggerClientTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwaggerClient-SwaggerClientTests/Pods-SwaggerClient-SwaggerClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		551D900DC2DFF9AD01318A1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitHub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72CCE58FB7496BFEB9700317 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwaggerClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EEF433D776A92AE1217EB2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitHubTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88FAD4DE78CEAA05EF87D341 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitHubWatchOS1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C0AA0296D1F11CC0A25A6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwaggerClient-SwaggerClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA8575FA3509BFFFB73D9222 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitHub-FitHubUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39427BC623639BB3004DEBBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395A44B82365174D00B0E754 /* TrainingViewController.swift in Sources */,
 				395A448F23650EAD00B0E754 /* CollectionViewCell.swift in Sources */,
+				395A44BA236525E400B0E754 /* ChooseTrainingPlan.swift in Sources */,
+				395A44C02365433E00B0E754 /* ExerciseCell.swift in Sources */,
 				39427BCE23639BB3004DEBBC /* AppDelegate.swift in Sources */,
+				395A44BC23652B1200B0E754 /* TaskCell.swift in Sources */,
 				395A44572364C96A00B0E754 /* PlanViewController.swift in Sources */,
+				395A44BE2365403E00B0E754 /* TrainingPlanViewController.swift in Sources */,
 				395A448B2364F31200B0E754 /* ProfileViewController.swift in Sources */,
 				395A448D2364F3FD00B0E754 /* SettingsCell.swift in Sources */,
 			);
@@ -488,6 +946,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		395A44C223654C2500B0E754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A44CA23654C2500B0E754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395A44D623654C2500B0E754 /* SwaggerClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -510,6 +983,21 @@
 			isa = PBXTargetDependency;
 			target = 395A44912365136600B0E754 /* FitHubWatchOS1 */;
 			targetProxy = 395A44AD2365136800B0E754 /* PBXContainerItemProxy */;
+		};
+		395A44D123654C2500B0E754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 395A44C523654C2500B0E754 /* SwaggerClient */;
+			targetProxy = 395A44D023654C2500B0E754 /* PBXContainerItemProxy */;
+		};
+		395A44D323654C2500B0E754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39427BC923639BB3004DEBBC /* FitHub */;
+			targetProxy = 395A44D223654C2500B0E754 /* PBXContainerItemProxy */;
+		};
+		395A44DA23654C2500B0E754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 395A44C523654C2500B0E754 /* SwaggerClient */;
+			targetProxy = 395A44D923654C2500B0E754 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -649,6 +1137,7 @@
 		};
 		39427BF523639BB7004DEBBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8249B1AB37BD45E31B8A0955 /* Pods-FitHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -668,6 +1157,7 @@
 		};
 		39427BF623639BB7004DEBBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C549A55BD4D89009EE830ECC /* Pods-FitHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -687,6 +1177,7 @@
 		};
 		39427BF823639BB7004DEBBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D39623C78FB2E8A853A9279 /* Pods-FitHubTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -708,6 +1199,7 @@
 		};
 		39427BF923639BB7004DEBBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F122EC21B0E2A9D6CEB3C27 /* Pods-FitHubTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -729,6 +1221,7 @@
 		};
 		39427BFB23639BB7004DEBBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A6585FB0567D7893F9EC9B /* Pods-FitHub-FitHubUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -748,6 +1241,7 @@
 		};
 		39427BFC23639BB7004DEBBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E378E57713FD67538697A72A /* Pods-FitHub-FitHubUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -767,6 +1261,7 @@
 		};
 		395A44B12365136800B0E754 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E93341EC8ACF75E10DFF356 /* Pods-FitHubWatchOS1 Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -788,6 +1283,7 @@
 		};
 		395A44B22365136800B0E754 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A63DA571FDE56457D4E445A /* Pods-FitHubWatchOS1 Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -809,6 +1305,7 @@
 		};
 		395A44B52365136800B0E754 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6CE844A528A5DE92CDCA53E /* Pods-FitHubWatchOS1.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -827,6 +1324,7 @@
 		};
 		395A44B62365136800B0E754 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6ECFD38B2DDEE836C543874 /* Pods-FitHubWatchOS1.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -840,6 +1338,100 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		395A44DF23654C2500B0E754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104785F651C52337FA29658E /* Pods-SwaggerClient.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwaggerClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.SwaggerClient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		395A44E023654C2500B0E754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4B5407605D080FF59B72A2 /* Pods-SwaggerClient.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwaggerClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.SwaggerClient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		395A44E223654C2500B0E754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE3CE5CE7750544C99E17BB8 /* Pods-SwaggerClient-SwaggerClientTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwaggerClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.SwaggerClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitHub.app/FitHub";
+			};
+			name = Debug;
+		};
+		395A44E323654C2500B0E754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7916B43FF83E1C668CE08C /* Pods-SwaggerClient-SwaggerClientTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwaggerClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RealityFamily.SwaggerClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitHub.app/FitHub";
 			};
 			name = Release;
 		};
@@ -896,6 +1488,24 @@
 			buildConfigurations = (
 				395A44B52365136800B0E754 /* Debug */,
 				395A44B62365136800B0E754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		395A44DE23654C2500B0E754 /* Build configuration list for PBXNativeTarget "SwaggerClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395A44DF23654C2500B0E754 /* Debug */,
+				395A44E023654C2500B0E754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		395A44E123654C2500B0E754 /* Build configuration list for PBXNativeTarget "SwaggerClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395A44E223654C2500B0E754 /* Debug */,
+				395A44E323654C2500B0E754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
