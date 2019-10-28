@@ -18,12 +18,13 @@ class PlanViewController : UIViewController{
     
     @IBOutlet weak var TodayTodoListView: UICollectionView!
     @IBOutlet weak var RecomendationsList: UICollectionView!
-    @IBOutlet weak var NewsListView: UICollectionView!
+    @IBOutlet weak var NewsListView: UIStackView!
+    @IBOutlet weak var ScrollingView: UIScrollView!
+    @IBOutlet weak var ScrollingContentView: UIView!
     
-    override func viewDidLoad() {
+    override func viewDidAppear(_ animated: Bool) {
         TodayTodoListView.reloadData()
         RecomendationsList.reloadData()
-        NewsListView.reloadData()
     }
 }
 
@@ -34,8 +35,6 @@ extension PlanViewController : UICollectionViewDataSource, UICollectionViewDeleg
             count = taskArray.count
         } else if (collectionView == RecomendationsList) {
             count = recomendedList.count
-        } else if (collectionView == NewsListView) {
-            count = newslist.count
         }
         return count
     }
@@ -45,21 +44,23 @@ extension PlanViewController : UICollectionViewDataSource, UICollectionViewDeleg
         if (collectionView == TodayTodoListView) {
             collectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewCell", for: indexPath) as! CollectionViewCell
 
-            collectionViewCell.setData(fieldname: taskArray[indexPath.row])
-            
-            collectionViewCell.setWidth(width: (collectionViewCell.Name.intrinsicContentSize.width + 40 > 118) ? collectionViewCell.Name.intrinsicContentSize.width + 40 : 118, height: 118)
+            var fullRing = false
+            if (indexPath.row == 3) {fullRing = true
+            }
+            collectionViewCell.createCell(
+                fieldname: taskArray[indexPath.row],
+                fieldvalue: 20,
+                width: collectionView.frame.width / 2 - 5,
+                height: collectionView.frame.height / 2 - 5,
+                fullRingAtField: fullRing)
         } else if (collectionView == RecomendationsList) {
             collectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewCell", for: indexPath) as! CollectionViewCell
 
-            collectionViewCell.setData(fieldname: recomendedList[indexPath.row])
-            
-            collectionViewCell.setWidth(width: (collectionViewCell.Name.intrinsicContentSize.width + 40 > 118) ? collectionViewCell.Name.intrinsicContentSize.width + 40 : 118, height: 118)
-        } else if (collectionView == NewsListView) {
-            collectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewCell", for: indexPath) as! CollectionViewCell
-
-            collectionViewCell.setData(fieldname: newslist[indexPath.row])
-            
-            collectionViewCell.setWidth(width: 343, height: 118)
+            collectionViewCell.createCell(
+                fieldname: recomendedList[indexPath.row],
+                width: (collectionViewCell.Name.intrinsicContentSize.width + 40 > 118) ? collectionViewCell.Name.intrinsicContentSize.width + 40 : 118,
+                height: 118
+            )
         }
         
         return collectionViewCell
