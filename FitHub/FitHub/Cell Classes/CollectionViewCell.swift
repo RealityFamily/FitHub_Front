@@ -65,7 +65,7 @@ class CollectionViewCell: UICollectionViewCell {
     
     func createCirclePath() {
         
-        let circlePath = UIBezierPath(arcCenter: CGPoint(x: cellwidth / 2, y: cellheight / 2), radius: cellwidth / 2.5, startAngle: 3 * .pi / 4, endAngle: fullRing ? .pi / 4 : 3 * .pi / 4, clockwise: true)
+        let circlePath = UIBezierPath(arcCenter: CGPoint(x: cellwidth / 2, y: cellheight / 2), radius: cellwidth / 2.5, startAngle: 3 * .pi / 4, endAngle: fullRing ? 2.249 * .pi / 3 : .pi / 4, clockwise: true)
         
         circleLayer.path = circlePath.cgPath
         circleLayer.fillColor = UIColor.clear.cgColor
