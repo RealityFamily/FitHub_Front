@@ -225,10 +225,33 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4D0-Bx-8eR">
-                                                    <rect key="frame" x="16" y="46" width="343" height="290"/>
+                                                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uJ2-JA-nSs">
+                                                    <rect key="frame" x="16" y="46" width="343" height="279"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </stackView>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <prototypes>
+                                                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="NewsCell" rowHeight="127" id="Tds-Sf-Fl5" customClass="NewsCell" customModule="FitHub" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="28" width="343" height="127"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Tds-Sf-Fl5" id="xEb-5Q-MXY">
+                                                                <rect key="frame" x="0.0" y="0.0" width="343" height="127"/>
+                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROf-Qd-zoh">
+                                                                        <rect key="frame" x="147" y="51" width="48" height="24"/>
+                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </tableViewCellContentView>
+                                                            <connections>
+                                                                <outlet property="Name" destination="ROf-Qd-zoh" id="Ls5-q0-Rnt"/>
+                                                            </connections>
+                                                        </tableViewCell>
+                                                    </prototypes>
+                                                </tableView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -242,7 +265,7 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="План" image="calendar" catalog="system" id="8eo-ea-bDh"/>
                     <connections>
-                        <outlet property="NewsListView" destination="4D0-Bx-8eR" id="eA0-Ya-hwI"/>
+                        <outlet property="NewsListTable" destination="uJ2-JA-nSs" id="YJg-Sd-cby"/>
                         <outlet property="RecomendationsList" destination="ZtM-cc-3Ey" id="i4k-lW-BBi"/>
                         <outlet property="TodayTodoListView" destination="ncY-fm-2UM" id="Xmv-XP-9aq"/>
                     </connections>

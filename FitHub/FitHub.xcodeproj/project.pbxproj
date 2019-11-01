@@ -11,6 +11,7 @@
 		170C0C350FCE8A2A46E0F074 /* Pods_FitHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6D2C0384C7895C726BE164 /* Pods_FitHubTests.framework */; };
 		35AE523FF17AD58C4D6F1B5F /* Pods_FitHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85EB2205CBD7AF9BEEBC6E9 /* Pods_FitHub.framework */; };
 		3647334A96565AD2BB00B984 /* Pods_FitHubWatchOS1_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F244D55F64669184A00F6D /* Pods_FitHubWatchOS1_Extension.framework */; };
+		3939C2DD236C553600652F9C /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3939C2DC236C553600652F9C /* NewsCell.swift */; };
 		39427BCE23639BB3004DEBBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39427BCD23639BB3004DEBBC /* AppDelegate.swift */; };
 		39427BD423639BB7004DEBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39427BD323639BB7004DEBBC /* Assets.xcassets */; };
 		39427BD723639BB7004DEBBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39427BD623639BB7004DEBBC /* Preview Assets.xcassets */; };
@@ -139,6 +140,7 @@
 		0D39623C78FB2E8A853A9279 /* Pods-FitHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHubTests.debug.xcconfig"; path = "Target Support Files/Pods-FitHubTests/Pods-FitHubTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0D6D2C0384C7895C726BE164 /* Pods_FitHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		104785F651C52337FA29658E /* Pods-SwaggerClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwaggerClient.debug.xcconfig"; path = "Target Support Files/Pods-SwaggerClient/Pods-SwaggerClient.debug.xcconfig"; sourceTree = "<group>"; };
+		3939C2DC236C553600652F9C /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		39427BCA23639BB3004DEBBC /* FitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39427BCD23639BB3004DEBBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39427BD323639BB7004DEBBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -372,6 +374,7 @@
 				395A448E23650EAD00B0E754 /* CollectionViewCell.swift */,
 				395A44BB23652B1200B0E754 /* TaskCell.swift */,
 				395A44BF2365433E00B0E754 /* ExerciseCell.swift */,
+				3939C2DC236C553600652F9C /* NewsCell.swift */,
 			);
 			path = "Cell Classes";
 			sourceTree = "<group>";
@@ -917,6 +920,7 @@
 				395A44BE2365403E00B0E754 /* TrainingPlanViewController.swift in Sources */,
 				395A448B2364F31200B0E754 /* ProfileViewController.swift in Sources */,
 				395A448D2364F3FD00B0E754 /* SettingsCell.swift in Sources */,
+				3939C2DD236C553600652F9C /* NewsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

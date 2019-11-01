@@ -18,27 +18,25 @@ class PlanViewController : UITableViewController{
     
     @IBOutlet weak var TodayTodoListView: UICollectionView!
     @IBOutlet weak var RecomendationsList: UICollectionView!
-    @IBOutlet weak var NewsListView: UIStackView!
+    @IBOutlet weak var NewsListTable: UITableView!
     
     override func viewDidLoad() {
         TodayTodoListView.reloadData()
         RecomendationsList.reloadData()
-        
-        newslist.forEach {name in
-            let newsContainer = UIView()
-            newsContainer.layer.borderWidth = 1
-            newsContainer.layer.borderColor = UIColor.black.cgColor
-            
-            NSLayoutConstraint(item: newsContainer, attribute: NSLayoutConstraint.Attribute.height, relatedBy: NSLayoutConstraint.Relation.equal, toItem: nil, attribute: NSLayoutConstraint.Attribute.notAnAttribute, multiplier: 1, constant: 100).isActive = true
-            NSLayoutConstraint(item: newsContainer, attribute: NSLayoutConstraint.Attribute.width, relatedBy: NSLayoutConstraint.Relation.equal, toItem: nil, attribute: NSLayoutConstraint.Attribute.notAnAttribute, multiplier: 1, constant: NewsListView.frame.width - 40).isActive = true
-            
-            let newsName = UILabel()
-            newsName.text = name
-            newsContainer.addSubview(newsName)
-            NewsListView.addArrangedSubview(newsContainer)
-        }
-        
         self.tableView.rowHeight = UITableView.automaticDimension
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if (tableView == NewsListTable) {
+            return newslist.count
+        }
+        return 0
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if (tableView == NewsListTable) {
+            
+        }
     }
 }
 
